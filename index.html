@@ -1,0 +1,83 @@
+<!doctype html>
+	<html>
+	<head>
+		<title>  </title>
+		<style type="text/css">table,tr,td{font-family: monospace; font-size:20px; border: 8px solid black; padding: 8px; margin: 10px;}tr:nth-child(even) {background-color:grey;} tr:nth-child(even) {
+  background-color:grey;}
+h1{
+color:black; background-color:grey; font-family:monospace; 
+font-size:20px; text-align:center; text-decoration:none;
+}
+</style>
+	</head>
+	<body style="font-family:monospace; font-size: 20px;">
+		<center> 
+			<h1> This is a calculator a normal. Use it to solve math problems.</h1>
+			<form name="dumb">
+		<table>
+			<tr>
+				<td colspan="4">
+		<input type="text" name="blank"id="hello">
+	</td>
+</tr>
+<tr>
+	<td>
+		<input type="button" name="add" value="+" onclick="dumb.blank.value+='+'">
+		</td>
+		<td>
+			<input type="button" name="sub" value="-"  onclick="dumb.blank.value+='-'">
+		</td>
+		<td>
+			<input type="button" name="mup" value="x"  onclick="dumb.blank.value+='*'">
+		</td>
+			<td>
+				<input type="button" name="div" value="/"  onclick="dumb.blank.value+='/'">
+			</td>
+		</tr>
+		<tr>
+			<td>
+		<input type="button" name="1" value="1" onclick="dumb.blank.value+='1'">
+	</td>
+	<td>
+		<input type="button" name="2" value="2" onclick="dumb.blank.value+='2'">
+	</td>
+	<td>
+		<input type="button" name="3" value="3" onclick="dumb.blank.value+='3'">
+	</td>
+	<td>
+		<input type="button" name="4" value="4" onclick="dumb.blank.value+='4'">
+	</td>
+</tr>
+<tr>
+	<td>
+	<input type="button" name="5" value="5" onclick="dumb.blank.value+='5'">
+</td>
+<td>
+<input type="button" name="6" value="6"  onclick="dumb.blank.value+='6'">
+</td>
+<td>
+	<input type="button" name="7" value="7"  onclick="dumb.blank.value+='7'">
+</td>
+<td>
+	<input type="button" name="8" value="8"  onclick="dumb.blank.value+='8'">
+</td>
+</tr>
+<tr>
+	<td>
+	<input type="button" name="9" value="9"  onclick="dumb.blank.value+='9'">
+	</td>
+	<td>
+		<input type="button" name="0" value="0"  onclick="dumb.blank.value+='0'">
+	</td>
+	<td>
+		<input type="button" name="point" value="." onclick="dumb.blank.value+='.'">
+	</td>
+	<td>
+	<input type="button" name="equal" value="=" onclick="dumb.blank.value=eval(dumb.blank.value)">
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>
